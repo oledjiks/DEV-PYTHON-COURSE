@@ -1,0 +1,12 @@
+127.0.0.1 localhost
+192.168.1.1 myserver
+192.168.1.10 workpc
+192.168.1.11 mailserver
+127.0.0.2 badhost
+10.0.0.3 newhost
+10.0.0.43 host43
+192.168.1.2 ftpserver
+10.1.1.2 host1
+10.1.1.3 host22
+10.1.1.33 host33
+192.168.1.111 host111

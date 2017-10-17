@@ -1,0 +1,2 @@
+Hello man!!!
+This is test message from my bot.
