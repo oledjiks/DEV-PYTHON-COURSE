@@ -8,7 +8,6 @@ info = ''' >>> МОРСКОЙ БОЙ <<<
  1 - занята кораблем
  -1 - подбит
 '''
-
 v = 'abcdefghij'
 userboard = [[0 for x in range(10)] for y in range(10)]
 pcboard = [[0 for x in range(10)] for y in range(10)]
@@ -53,9 +52,6 @@ def InputShip3():
     elif int(s[1]) == int(e[1]) and s[0] != e[0]:
         for i in range(v.index(s[0]), v.index(e[0])+1):
             userboard[i][int(s[1])] = 1
-
-
-
 
 
 if __name__ == '__main__':
