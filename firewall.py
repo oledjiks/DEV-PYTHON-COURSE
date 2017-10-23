@@ -5,7 +5,6 @@ def ip2int(addr):
 	return struct.unpack("!I", socket.inet_aton(addr))[0]
 
 """
-словарь для правил фильтрации
 {1: ['permit|deny', 'srcaddr', 'srcmask', 'dstaddr', 'dstmask']}
 """
 
@@ -35,6 +34,6 @@ def filterrule(srcadr, dstadr):
         elif i[0] == 'deny' and ip2int(i[1]) == src and ip2int(i[3]) == dst:
             return False
         else:
-            print 'Нет таких адресов в таблице фильтрации пакетов'
+            print 'No addresses in filter table'
 
 
